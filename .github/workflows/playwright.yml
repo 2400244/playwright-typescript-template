@@ -18,4 +18,4 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps chromium
     - name: Run Playwright tests
-      run: npx playwright test --project "chromium" --workers 1 --global-timeout 120000
+      run: npx playwright test --project "chromium" --workers 1 --global-timeout 120000 -x
